@@ -1,0 +1,10 @@
+div(ng-style="hue")
+  div(ng-style="styles.selector")
+  div(ng-style="whiteOverlay")
+    div(
+      ng-mousedown="onMousedown($event)"
+      ng-mousemove="onMousemove($event)"
+      ng-mouseup="onMouseup()"
+      ng-mouseleave="onMouseleave()"
+      ng-style="blackOverlay"
+    )

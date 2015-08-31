@@ -1,0 +1,9 @@
+div(ng-style="styles.container")
+  div(ng-style="styles.arrow")
+  div(
+    ng-style="styles.hue"
+    ng-mousedown="onMousedown($event)"
+    ng-mousemove="onMousemove($event)"
+    ng-mouseup="onMouseup()"
+    ng-mouseleave="onMouseleave()"
+  )

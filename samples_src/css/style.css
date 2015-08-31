@@ -1,0 +1,6 @@
+:matches(section, article, aside) {
+  color: red;
+}
+:-moz-any(section) h1 {
+  color: blue;
+}

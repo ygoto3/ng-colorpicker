@@ -1,0 +1,7 @@
+ul
+  li(ng-repeat="colorbox in colorboxes track by $index | limitTo : limit")
+    ng-colorbox(
+      model="colorbox"
+      width="20"
+      height="20"
+    )

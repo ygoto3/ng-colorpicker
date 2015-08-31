@@ -1,0 +1,15 @@
+html(lang="en", ng-app="samples")
+  head
+    meta(charset="UTF-8")
+    title ng-colorpicker samples
+    link(rel="stylesheet", href="./css/style.css")
+  body
+    div(ng-controller="SampleCtrl")
+      ng-colorpicker-popover(
+        model="color"
+        history="history"
+      )
+
+    script(type="text/javascript", src="../bower_components/angular/angular.min.js")
+    script(type="text/javascript", src="../dist/ng-colorpicker.js")
+    script(type="text/javascript", src="./js/samples.js")

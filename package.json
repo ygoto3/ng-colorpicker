@@ -1,0 +1,41 @@
+{
+  "name": "ng-colorpicker",
+  "version": "0.0.1",
+  "description": "A highly customizable AngularJS colorpicker component library.",
+  "main": "./dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ygoto3/ng-colorpicker.git"
+  },
+  "keywords": [
+    "angular.js",
+    "ng",
+    "directive"
+  ],
+  "author": "Yusuke Goto",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ygoto3/ng-colorpicker/issues"
+  },
+  "homepage": "https://github.com/ygoto3/ng-colorpicker",
+  "devDependencies": {
+    "babel-core": "^5.5.8",
+    "babel-loader": "^5.1.4",
+    "gulp": "^3.8.11",
+    "gulp-clean": "^0.3.1",
+    "gulp-cssnext": "^1.0.1",
+    "gulp-jade": "^1.0.0",
+    "gulp-rename": "^1.2.0",
+    "gulp-webpack": "^1.5.0",
+    "jade": "^1.11.0",
+    "jade-loader": "^0.7.1",
+    "require-dir": "^0.3.0"
+  },
+  "dependencies": {
+    "color-model": "^0.2.2",
+    "lodash": "^3.9.3"
+  }
+}
